@@ -1,0 +1,42 @@
+# Environment variables - NEVER push these
+server/.env
+client/.env
+.env
+.env.local
+.env.production
+.env.development
+
+# Dependencies - too large to push
+node_modules/
+server/node_modules/
+client/node_modules/
+
+# Build output
+client/dist/
+client/build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# API keys / secrets (extra safety)
+*.pem
+*.key
+*.cert
+secrets/
+config/secrets.js
+
+# Temp files
+*.tmp
+*.temp
+.cache/
